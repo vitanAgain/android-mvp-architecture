@@ -23,6 +23,7 @@ import com.google.gson.annotations.SerializedName;
  */
 
 public class LoginRequest {
+    //MYNOTE: 4/17 封装登录请求
 
     private LoginRequest() {
         // This class is not publicly instantiable

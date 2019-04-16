@@ -23,7 +23,7 @@ import java.util.List;
 /**
  * Created by janisharali on 28/01/17.
  */
-
+//MYNOTE: 4/17 gson对象
 public class OpenSourceResponse {
 
     @Expose

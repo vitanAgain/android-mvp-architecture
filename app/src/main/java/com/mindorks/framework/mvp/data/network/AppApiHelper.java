@@ -30,7 +30,7 @@ import io.reactivex.Single;
 /**
  * Created by janisharali on 28/01/17.
  */
-
+//MYNOTE: 4/17 在这里设计联网的操作，用具体的http第三方库；考虑是否需要回调接口（onSuccess、onFailure）
 @Singleton
 public class AppApiHelper implements ApiHelper {
 

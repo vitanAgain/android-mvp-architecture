@@ -25,7 +25,7 @@ import io.reactivex.Observable;
 /**
  * Created by janisharali on 27/01/17.
  */
-
+//MYNOTE: 4/17 DataManager继承db、sp、network的数据操作接口
 public interface DataManager extends DbHelper, PreferencesHelper, ApiHelper {
 
     void updateApiHeader(Long userId, String accessToken);
