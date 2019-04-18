@@ -76,6 +76,8 @@ public class AppApiHelper implements ApiHelper {
                 .getObjectSingle(LoginResponse.class);
     }
 
+
+
     @Override
     public Single<LogoutResponse> doLogoutApiCall() {
         return Rx2AndroidNetworking.post(ApiEndPoint.ENDPOINT_LOGOUT)
