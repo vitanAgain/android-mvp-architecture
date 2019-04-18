@@ -22,7 +22,7 @@ import timber.log.Timber;
 /**
  * Created by amitshekhar on 15/02/17.
  */
-
+//MYNOTE: 2019/04/18 基于Timber封装的logger工具
 public class AppLogger {
 
     public static void init() {
