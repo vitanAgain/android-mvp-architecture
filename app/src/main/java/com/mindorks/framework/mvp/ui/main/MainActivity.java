@@ -104,6 +104,7 @@ public class MainActivity extends BaseActivity implements MainMvpView {
 
         setUnBinder(ButterKnife.bind(this));
 
+        // MYWHY: 2019/04/19 mPresenter.onAttach()  设置view对象
         mPresenter.onAttach(this);
 
         setUp();
@@ -175,6 +176,7 @@ public class MainActivity extends BaseActivity implements MainMvpView {
 
     @Override
     protected void onDestroy() {
+        //MYNOTE: 2019/04/19 mPresenter在onCreate时onAttach，销毁时调用onDetach
         mPresenter.onDetach();
         super.onDestroy();
     }

@@ -25,7 +25,7 @@ package com.mindorks.framework.mvp.ui.base;
  * that then usually will be implemented by an Activity or Fragment.
  */
 public interface SubMvpView extends MvpView {
-
+//MYNOTE: 2019/04/19 子MvpView
     void onCreate();
 
     void onStart();
