@@ -52,6 +52,7 @@ public abstract class BaseActivity extends AppCompatActivity
 
     private ProgressDialog mProgressDialog;
 
+    //MYNOTE: 4/21 用于dragger2
     private ActivityComponent mActivityComponent;
 
     private Unbinder mUnBinder;
@@ -70,6 +71,7 @@ public abstract class BaseActivity extends AppCompatActivity
         return mActivityComponent;
     }
 
+    //MYNOTE: 4/21 CalligraphyContextWrapper字体库框架
     @Override
     protected void attachBaseContext(Context newBase) {
         super.attachBaseContext(CalligraphyContextWrapper.wrap(newBase));

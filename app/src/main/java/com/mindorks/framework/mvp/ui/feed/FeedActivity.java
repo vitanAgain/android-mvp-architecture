@@ -117,6 +117,7 @@ public class FeedActivity extends BaseActivity implements FeedMvpView {
         switch (item.getItemId()) {
             // Respond to the action bar's Up/Home button
             case android.R.id.home:
+                //MYNOTE: 4/21 这里使用了NavUtils工具
                 Intent upIntent = NavUtils.getParentActivityIntent(this);
                 upIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 if (NavUtils.shouldUpRecreateTask(this, upIntent)) {

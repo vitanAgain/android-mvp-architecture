@@ -54,6 +54,7 @@ public class LoginActivity extends BaseActivity implements LoginMvpView {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //MYNOTE: 4/21 在进入view的onCreate时，创建presenter，以及使用onAttach(this)
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 

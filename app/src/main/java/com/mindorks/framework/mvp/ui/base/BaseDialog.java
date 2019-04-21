@@ -169,6 +169,7 @@ public abstract class BaseDialog extends DialogFragment implements DialogMvpView
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+        //MYNOTE: 4/21 这里使用到了setUp抽象方法，该抽象方法将在继承类中实现
         setUp(view);
     }
 
