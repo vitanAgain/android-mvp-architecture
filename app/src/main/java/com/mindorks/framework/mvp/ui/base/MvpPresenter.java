@@ -27,6 +27,7 @@ import com.androidnetworking.error.ANError;
  */
 public interface MvpPresenter<V extends MvpView> {
 
+    //MYNOTE: 2019/04/22 该接口指示了想要附着的view
     void onAttach(V mvpView);
 
     void onDetach();
