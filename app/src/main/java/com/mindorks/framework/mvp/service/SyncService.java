@@ -65,6 +65,7 @@ public class SyncService extends Service {
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         AppLogger.d(TAG, "SyncService started");
+        // MYWHY: 2019/06/04 start_sticky?
         return START_STICKY;
     }
 
